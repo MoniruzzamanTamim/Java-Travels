@@ -1,0 +1,562 @@
+
+@media(max-width:1199px){}
+@media(max-width:992px){
+    /* menu icon show */
+    #menubars {
+        display: inline-block;
+        font-size: 22px;
+        color: #000;
+        transform: translate(0, 4px);
+        margin-right: 15px;
+        padding-left: 15px;
+    }
+    #dotmenu {
+        display: inline-block;
+        position: absolute;
+        right: 95px;
+        font-size: 25px;
+        color: #000;
+        top: 39px;
+    }
+    /* top header */
+    #top-header{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 1000;
+    }
+    #top-header .topheader-logo a {
+display: inline-block;
+        width: 200px !important;
+    }
+
+    #top-header .topheader-content {
+        position: absolute;
+        top: 106px;
+        display: block;
+        right: 2rem;
+        width: 18rem;
+        padding: 31px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        transform: translateY(-50px);
+        transform: scale(0);
+        opacity: 0;
+        visibility: hidden;
+        background: #fff;
+    }
+    #top-header .topheader-content.active{
+        transform: translateY(10px);
+        transform: scale(1);
+        opacity: 1;
+        visibility: visible;
+        transform-origin: top center;
+    }
+
+    #top-header .topheader-content .topheader-phone {
+        margin: 10px 0;
+    }
+    #top-header .topheader-content .topheader-clock {
+        margin: 23px 0; 
+    } 
+    #top-header .topheader-content .topheader-btn{
+        margin-top: 23px;
+
+    }
+   /* main header */
+   
+      
+    #main-header {
+        position: fixed;
+        top: 89px;
+        width: 22rem;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: #fff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        left: -200%;
+    }
+   
+    #main-header.active{
+        left: 0;
+    }
+    #main-header.showtop{
+        position: fixed;
+        top: 89px;
+        width: 22rem;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background: #fff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        left: -200%;
+    }
+    #main-header.showtop.active{
+        left: 0;
+    }
+    .main-header-menu{
+        margin-top: 110px;
+    }
+    .main-header-menu a{
+        color: black;
+        display: block;
+        max-width: 100%;
+        padding: 10px 0 10px 30px;
+        
+    }
+.row >*{
+    padding: 0 !important;
+}
+.main-header-icon {
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    width: 22rem;
+    height: 7rem;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-header-icon i{
+    color: white;
+}
+
+/* home part */
+.slider-inner-info {
+    padding: 0 37px;
+}
+
+/* location part */
+.width-calculate {
+    width: 29%;
+    margin: 0 15px;
+}
+.location-info .location-info-text h3 {
+    font-size: 20px;
+}
+/* discover section start */
+#discover-part .discover-left {
+    padding-right: 0;
+    text-align: center;
+    margin-bottom: 33px;
+}
+#discover-part .discover-right {
+    padding-left: 0;
+    text-align: center;
+}
+#discover-part .discover-right .right-menu {
+    padding: 1px 0;
+    border-bottom: 5px solid #9B9B9B;
+    margin: 5px 18px;
+}
+#discover-part .discover-right .right-menu span {
+    padding: 7px 13px;
+}
+#discover-part .discover-right .right-menu span::after {
+    top: 44px;
+    left: -10px;
+}
+#discover-part .discover-right .right-menu span:hover::after{
+    width:170px;
+}
+#discover-part .discover-right p {
+    margin: 3px 15px;
+    text-align: left;
+}
+#discover-part .discover-right .right-btn a {
+    margin: 15px 13px;
+}
+
+
+/* srvice section */
+.service-section {
+    padding: 32px 0;
+    background: #162e44;
+}
+.service-item {
+    margin: 20px 21px;
+}
+
+.service-section-tittle h1{
+    color: white;
+    font-weight: 700;
+}
+.service-item .rightcontent a{
+    color: white !important;
+}
+.service-item .rightcontent p{
+    color: wheat;
+}
+
+/* team section */
+.team-information {
+    margin: 0 8px;
+}
+.team-information::before {
+    width: 150px;
+    height: 150px;
+    top: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* .impress-section */
+.impress-section {
+    height: 100vh;
+    overflow: hidden;
+}
+.impress-info {
+    padding-top: 39px;
+    text-align: center;
+}
+
+/* feather section */
+#feather-section {
+    height: 196px;
+    padding: 113px;
+}
+
+/* top fotter section */
+.second-part .second-details {
+    margin-bottom: 13px;
+    padding: 0px 76px 0 0;
+}
+.second-part .second-details p {
+    font-size: 12px;
+}
+/* About page start  */
+                    /* ?page Tittle */
+.page-tittle {
+  margin-top: 77px;
+  }
+
+  .skill-progess-one , .skill-progess-two, .skill-progess-three{  width: 110px; height: 110px;  line-height: 110px; }
+
+  /* Say section */
+  .say-content {padding: 30px 0;}
+/* contact page start */
+/* Address section */
+.contact-content { margin: 0 10px;}
+
+.form-control {   padding: 8.5px 80px 8.5px 22px; margin: 0 10px;}
+}
+
+
+@media(max-width:768px){
+    /* ?dot menu start */
+    #dotmenu {
+        right: 34px;
+    }
+    /* home part Start */
+    .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+        right: var(--swiper-pagination-right,40px) !important;
+      
+    }
+
+    /* location Prt */
+
+    /* discover part */
+    #discover-part .discover-right .right-menu span:hover::after{
+        width: 190px;
+    }
+
+    /* discover Section */
+    #discover-part .discover-right .right-menu {
+        margin: 0px 40px;
+        padding: -2px 0;
+    }
+    #discover-part .discover-right .right-menu span {
+        padding: 6.5px 48px;
+    }
+    .right-btn{
+        text-align: left;
+    }
+    /* deal section */
+    .deal-section {
+        padding: 0px 0;
+    }
+
+    /* team section */
+    .team-information {
+        margin: 52px 8px;
+    }
+    .team-information::before {    top: -58px;  left: 0;   right: 0;  margin: auto;
+    }
+    .team-tittle {   font-size: 42px;  padding-bottom: 61px;  text-align: center;}
+    /*   #feather-section */
+    #feather-section {    height: 177px;    padding: 113px;  padding: 0 0;}
+    /* top footer section */
+
+    /* About Page Start */
+    /* ?client section */
+    .client-info span { font-size: 40px; }
+    .client-info h2 {     font-size: 18px;  }
+    /* Contact page Start */
+    /* Address section */
+    .address-section {  padding: 30px 0; }
+    .contact-content { margin: 13px 0px;  }
+
+}
+
+
+@media(max-width:576px){
+    /* dotmenu start */
+    #dotmenu {
+        right: 34px;
+    }
+      /* home section */
+      .slider-inner-info {
+        padding: 0 30px !important;
+    }
+    .slider-inner-info p {
+        letter-spacing: 0rem;
+        font-size: 18px;
+    }
+    .slider-inner-info h3 {
+        font-size: 40px;
+        letter-spacing: 0rem;
+        margin-bottom: 23px;
+    }
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+            font-size: 12px !important;
+            width: 16px !important;
+            height: 15px !important;
+        }
+    .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+        right: var(--swiper-pagination-right,30px) !important;
+      
+    }
+    /* location Part */
+   
+    .width-calculate {
+        width: 100%;
+        margin: 15px 0 ;
+    }
+    /* discover section start */
+    #discover-part .discover-right .right-menu {
+        margin: 6px 34px;
+    }
+    #discover-part .discover-right .right-menu span::after {
+        left: -12px;
+    }
+    #discover-part .discover-right .right-menu span:hover::after{
+        width: 183px;
+    }
+    #discover-part .discover-right p {
+        margin: 14px 26px;
+    }
+
+    #discover-part {
+        padding: 28px 0;
+    }
+    #discover-part .discover-right h1 {
+        font-size: 29px;
+    }
+    #discover-part .discover-right .right-menu {
+       border: none;
+    }
+    #discover-part .discover-right .right-menu span {
+        padding: 4px 10px;
+        margin: 15px;
+        border-top: .1rem solid #9B9B9B;
+        border-bottom: .1rem solid #9B9B9B;
+    }
+
+    #discover-part .discover-right .right-menu span::after {
+        height: .1rem;
+        top: 38px;
+        left: 0px;
+      }
+      #discover-part .discover-right .right-menu span:hover::after{
+      width: 140px; 
+      }
+      #discover-part .discover-right .right-btn a {
+        margin: 8px 6px;
+    }
+
+    /* ?deal section */
+    .deal-section .deal-first-content {
+        margin: 0 10px;
+    }
+    .deal-section .deal-first-content  .text-section a {
+         font-size: 16px;
+    }
+    .text-section .text-midle {
+        flex-wrap: wrap;
+    }
+    .text-section .btn{
+        padding: 12px 36px;
+    }
+
+    /* team section */
+    .team-information::before { left: 0; right: 0;   margin: auto; }
+    .team-tittle {    font-size: 35px; padding-bottom: 42px;  margin-top: 25px;
+    }
+/* impress section */
+    .impress-info p { font-size: 12px;}
+    /*     #feather-section */
+    #feather-section {  height: 133px; }
+    /*  .top-footer section */
+    .top-footer {   padding: 55px 40px;    text-align: center; }
+    .first-part .first-details ul li {   justify-content: center;  }
+    .second-part .second-details {  margin-bottom: 13px; padding: 0 0; }
+    .third-part ul li {padding: 3px 20px 3px 0; }
+    .third-part ul li a { padding: 0px 0 0px 18px;   }
+    .first-part , .second-part, .third-part{   margin-bottom: 30px; }
+    /* fotter section */
+    .fotter-midle{ text-align: right !important;}
+
+    /* about Page start */
+    /* choice section */
+    .choise-section {  padding: 70px 0; }
+    .choice-img { width: 100%;height: 100%;text-align: center; }
+    .choice-part h1 {  margin-bottom: 25px;  }
+    .choice-part h1 {   font-size: 35px; }
+    /* about Page Start */
+    /* ?client section */
+    .client-section {  height: 100vh;  padding: 59px  0;}
+    .client-info { padding: 5px 0;  margin: 15px 82px;  border-bottom: 1px solid #fff; }
+}
+
+
+@media(max-width:450px){
+    /* dot menu sart */
+    #dotmenu {
+        right: 20px;
+    }
+    /* home section */
+    .slider-inner-info {
+        padding: 0 30px !important;
+    }
+    .slider-inner-info p {
+        font-size: 14px;
+    }
+    .slider-inner-info h3 {
+        font-size: 28px;
+        letter-spacing: 0rem;
+        margin-bottom: 15px;
+    }
+   
+    /* location Part */
+   
+    #location {
+        padding: 12px 0;
+        background: #eee;
+    }
+
+
+    /* discover section */
+    #discover-part {
+        padding: 28px 0;
+    }
+    #discover-part .discover-right h1 {
+        font-size: 29px;
+    }
+    #discover-part .discover-right .right-menu {
+        border: none;
+        justify-content: space-between;
+    }
+    #discover-part .discover-right .right-menu span {
+        padding: 8px 3px;
+        margin: 0px;
+    }
+
+    #discover-part .discover-right .right-menu span::after {
+        height: .1rem;
+        top: 38px;
+        left: 0px;
+      }
+      #discover-part .discover-right .right-menu span::after {
+        top: 46px;
+        width: 7px;
+        height: 0.5px;
+    }
+      #discover-part .discover-right .right-btn a {
+        margin: 8px 6px;
+    }
+
+    /* service section */
+    .service-item .leftcontent {
+        padding: 12px  16px 13px 13px !important;
+    }
+    .service-item .rightcontent {
+        padding: 7px  7px 7px 0 !important;
+    }
+    .service-item .rightcontent a {
+        font-size: 18px;
+       }
+       .service-item .rightcontent p {
+        font-size: 13px;
+       }
+       /* deal section */
+       .deal-section .deal-first-content{
+      box-shadow: none;
+      border: none;
+      }
+      .deal-section .deal-first-content  .text-section {
+        padding: 46px 10px;
+    }
+
+    /* team section */
+    .team-information::before {
+        top: -66px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .team-tittle {
+        font-size: 25px;
+        padding-bottom: 26px;
+        margin-top: -2px;
+    }
+    .team-information {
+    margin: 48px 23px;
+}
+
+/* impress section */
+.impress-section {
+    height: 100vh;
+    overflow: hidden;
+}
+.impress-info {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.impress-info h3 {
+    font-size: 19px;
+}
+/* #feather-section */
+#feather-section {
+    height: 100px;
+}
+ /* fotter section */
+ .fotter-midle{
+    text-align: center !important;
+}
+.footer-right {
+    text-align: center;
+}
+
+/* about page start */
+/* say section */
+.say-content p {
+    font-size: 12px;
+    line-height: 19px;
+}
+}
+
+
+@media(min-width:768px){
+    .first-details ul {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+}
+
+
+
